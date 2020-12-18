@@ -1,0 +1,78 @@
+@media(min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+.font-weight-600
+{
+    font-weight: 600;
+}
+.blue-txt
+{
+    color: #0e183c;
+}
+
+.header
+{
+    background: radial-gradient(#47e0fd, #020a56);
+    height: 100vh;
+    background-position: right;
+    background-size: 200%;
+    overflow: hidden;
+}
+.header .hero-subtitle
+{
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+}
+.header .btn-primary
+{
+    background-color: #0e183c;
+    border-color: #0e183c;
+}
+.header .btn-outer-primary
+{
+    border-color: #0e183c;
+}
+
+/*Start why-us-section*/
+.why-us-section .title
+{
+    color: #16cbd0;
+}
+.why-us-section .list_item
+{
+    font-size: 1.2rem;
+}
+.why-us-section .list_item span
+{
+    font-size: 1.5rem;
+}
+.why-us-section .image
+{
+    width: 100%;
+}
+@media(max-width: 992px) {
+    .why-us-section .image
+    {
+        width: 70%;
+    }
+}
+.h-0
+{
+    height: 0;
+}
+@media (min-width: 1200px) {
+    .h-lg-100
+    {
+        height: 100%;
+    }
+}
+/*End why-us-section*/
