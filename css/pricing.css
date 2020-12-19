@@ -1,0 +1,100 @@
+@media(min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+.font-weight-600
+{
+    font-weight: 600;
+}
+.pricing-section .rounded-lg
+{
+    border-radius: .9rem!important;
+}
+
+.pricing-section
+{
+    background-color: #939292;
+}
+.pricing-section .discount-item
+{
+    position: absolute;
+    top: 15px;
+    right: 7px;
+    transform: rotateZ(45deg);
+    font-size: 1.3rem;
+}
+.pricing-section .discount-item .txt
+{
+    position: relative;
+    z-index: 2;
+}
+.pricing-section .discount-item::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    transform: translateX(-30%);
+}
+.pricing-section .discount-item.off-30::after
+{
+    background-color: #4adede;
+}
+.pricing-section .discount-item.off-50::after
+{
+    background-color: #1d2f97;
+}
+.pricing-section .discount-item.off-70::after
+{
+    background-color: #020b56;
+}
+.pricing-section .price
+{
+    color: #1aa7ec;
+    font-size: 3rem;
+}
+.pricing-section .price sub
+{
+    font-size: 1.2rem;
+    margin-left: -.8rem;
+    bottom: 0;
+}
+.pricing-section .period
+{
+    color: #4adede;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+}
+.pricing-section .icon
+{
+    width: 3rem;
+}
+.pricing-section .item-txt
+{
+    color: #1d2f97;
+}
+.pricing-section .list_item
+{
+    border-bottom: 1px solid #ddd;
+}
+.pricing-section .list_item:last-of-type
+{
+    border-bottom: none;
+}
+.pricing-section .btn-primary,
+.pricing-section .btn-primary:hover
+{
+    background-color: #1d2f97;
+    border-color: #1d2f97;
+    font-size: 1.5rem;
+}
