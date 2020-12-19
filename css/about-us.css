@@ -1,0 +1,56 @@
+@media(min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+.font-weight-600
+{
+    font-weight: 600;
+}
+
+
+
+
+/*Start About Us Section #1*/
+.about-us-section_1 .logo
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(30%);
+    opacity: .5;
+    z-index: -1;
+}
+.about-us-section_1 .title
+{
+    color: #1d2f97;
+}
+.about-us-section_1 .subtitle
+{
+    color: #031364;
+}
+/*End About Us Section #1*/
+
+/*Start About Us Section #2*/
+.about-us-section_2
+{
+    background: linear-gradient(90deg, #04115c, #48e0fe);
+}
+.about-us-section_2 .title
+{
+    color: #4adede;
+}
+@media(max-width: 767px) {
+    .about-us-section_2
+    {
+        background: linear-gradient(180deg, #04115c, #48e0fe);
+        background-size: 150% 150%;
+    }
+}
