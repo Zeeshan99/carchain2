@@ -86,6 +86,7 @@
 .pricing-section .list_item
 {
     border-bottom: 1px solid #ddd;
+    padding: .2rem 0;
 }
 .pricing-section .list_item:last-of-type
 {

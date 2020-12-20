@@ -58,6 +58,10 @@
 
 
 /*Start section_1*/
+.section_1 .inner-box
+{
+    box-shadow: 0px 0px 10px #ddd;
+}
 .section_1 .owl-carousel .owl-item img
 {
     padding: .1rem;
@@ -94,7 +98,6 @@
 .section_1 .icon
 {
     width: 21px;
-    opacity: .8;
 }
 .section_1 .main-images .image
 {
@@ -176,12 +179,21 @@
 }
 .section_2 .nav-tabs .nav-link
 {
-    background-color: #e8e8e8;
-    color: #4a4a49;
+    background-color: #1e2f97;
+    color: #fff;
+    margin-right: .3rem;
 }
 .section_2 .nav-tabs .nav-link.active
 {
-    background-color: transparent;
+    background-color: #e8e8e8;
+    color: #4a4a49;
+}
+@media (max-width: 767px) {
+    .section_2 .nav-tabs .nav-link
+    {
+        font-size: .76rem;
+        margin-right: 0;
+    }
 }
 /*End section_2*/
 
