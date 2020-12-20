@@ -60,7 +60,7 @@
 /*Start section_1*/
 .section_1 .inner-box
 {
-    box-shadow: 0px 0px 10px #ddd;
+    box-shadow: 0px 3px 10px #aaa;
 }
 .section_1 .owl-carousel .owl-item img
 {
