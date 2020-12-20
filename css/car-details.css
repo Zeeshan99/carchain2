@@ -1,4 +1,13 @@
 
+
+@media(min-width: 768px) and (max-width: 1199px) {
+    .container
+    {
+        max-width: 95%;
+    }
+}
+
+
 .font-weight-600
 {
     font-weight: 600;
@@ -145,6 +154,12 @@
 .section_1 .secondary-buttons .icon
 {
     width: 15px;
+}
+@media(min-width: 768px) and (max-width: 1199px) {
+    .section_1 .secondary-buttons .btn
+    {
+        font-size: .85rem;
+    }
 }
 /*End section_1*/
 
