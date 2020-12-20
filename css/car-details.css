@@ -20,14 +20,14 @@
 }
 .second-color
 {
-    color: #1aa7ec;
+    color: #007bff;
 }
 .btn-primary,
 .btn-primary:hover,
 .btn-primary:active
 {
-    background-color: #1aa7ec !important;
-    border-color: #1aa7ec !important;
+    background-color: #0E183C !important;
+    border-color: #0E183C !important;
     outline: none;
     box-shadow: none;
 }
@@ -155,7 +155,7 @@
 }
 .section_1 .secondary-buttons .btn
 {
-    background-color: #1e2f97;
+    background-color: #007bff;
 }
 .section_1 .secondary-buttons .icon
 {
