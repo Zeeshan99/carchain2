@@ -95,48 +95,46 @@
                                 <img class="icon mr-2" src="./imgs/car-details/fr.png" alt="fr">
                                 <span class="text font-weight-bold text-secondary">France</span>
                             </li>
-                            <li class="list-item py-3 font-weight-600">
+                            <li class="list-item py-3 font-weight-600 text-center">
                                 <img src="./imgs/car-details/logo.png" alt="logo">
                             </li>
                         </ul>
                         <!--Principal buttons-->
-                        <div class="principal-buttons mb-3">
-                            <a class="btn btn-primary btn-block rounded-pill mb-2 text-white position-relative">
+                        <div class="principal-buttons mb-3 align-items-center d-flex flex-column">
+                            <a class="btn btn-primary fit-content rounded-pill mb-2 text-white position-relative">
                                 Call Seller
-                                <img class="chev-right" src="./imgs/car-details/chev-right.png" alt="chevron right">
                             </a>
-                            <a class="btn btn-primary btn-block rounded-pill mb-2 text-white position-relative">
+                            <a class="btn btn-primary fit-content rounded-pill mb-2 text-white position-relative">
                                 E-Mail Seller
-                                <img class="chev-right" src="./imgs/car-details/chev-right.png" alt="chevron right">
                             </a>
                         </div>
                         <!--Secondary buttons-->
                         <div class="secondary-buttons">
                             <div class="row">
                                 <!--button #1-->
-                                <div class="col-6">
-                                    <a class="btn btn-block mb-4 text-white text-left d-flex align-items-center">
+                                <div class="col-6 mb-2">
+                                    <a class="btn btn-block text-white text-left d-flex align-items-center">
                                         <img class="icon mr-2" src="./imgs/car-details/favorite-icon.png" alt="favorite">
                                         Favorites
                                     </a>
                                 </div>
                                 <!--button #2-->
-                                <div class="col-6">
-                                    <a class="btn btn-block mb-4 text-white text-left d-flex align-items-center">
+                                <div class="col-6 mb-2">
+                                    <a class="btn btn-block text-white text-left d-flex align-items-center">
                                         <img class="icon mr-2" src="./imgs/car-details/print-icon.png" alt="favorite">
                                         Print
                                     </a>
                                 </div>
                                 <!--button #3-->
-                                <div class="col-6">
-                                    <a class="btn btn-block mb-4 text-white text-left d-flex align-items-center">
+                                <div class="col-6 mb-2">
+                                    <a class="btn btn-block text-white text-left d-flex align-items-center">
                                         <img class="icon mr-2" src="./imgs/car-details/notify-icon.png" alt="favorite">
                                         Price reduction
                                     </a>
                                 </div>
                                 <!--button #4-->
-                                <div class="col-6">
-                                    <a class="btn btn-block mb-4 text-white text-left d-flex align-items-center">
+                                <div class="col-6 mb-2">
+                                    <a class="btn btn-block text-white text-left d-flex align-items-center">
                                         <img class="icon mr-2" src="./imgs/car-details/notify-icon.png" alt="favorite">
                                         similar Ad
                                     </a>
@@ -156,16 +154,25 @@
         <div class="container">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link font-weight-600 active" id="vehicle-data-tab" data-toggle="tab" href="#vehicle-data" role="tab"
-                        aria-controls="vehicle-data" aria-selected="true">Vehicle data</a>
+                    <a class="nav-link mr-md-1 h-100 font-weight-600 d-flex align-items-center active" id="vehicle-data-tab" data-toggle="tab" href="#vehicle-data" role="tab"
+                        aria-controls="vehicle-data" aria-selected="true">
+                        <img class="icon mr-2" src="./imgs/car-details/electric-car.png" alt="icon">
+                        <span class="txt">Vehicle data</span>
+                    </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link font-weight-600" id="description-tab" data-toggle="tab" href="#description" role="tab"
-                        aria-controls="description" aria-selected="false">Description</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link font-weight-600" id="condition-tab" data-toggle="tab" href="#condition" role="tab"
-                        aria-controls="condition" aria-selected="false">Condition</a>
+                    <a class="nav-link mr-md-1 h-100 font-weight-600 d-flex align-items-center" id="description-tab" data-toggle="tab" href="#description" role="tab"
+                    aria-controls="description" aria-selected="false">
+                    <img class="icon mr-2" src="./imgs/car-details/checklist.png" alt="icon">
+                    <span class="txt">Description</span>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link mr-md-1 h-100 font-weight-600 d-flex align-items-center" id="other-details-tab" data-toggle="tab" href="#other-details" role="tab"
+                aria-controls="other-details" aria-selected="false">
+                    <img class="icon mr-2" src="./imgs/car-details/certificate.png" alt="icon">
+                        <span class="txt">Other details</span>
+                    </a>
                 </li>
             </ul>
             <div class="tab-content border-left border-right border-bottom mb-2" id="myTabContent">
@@ -370,7 +377,7 @@
                     </p>
                 </div>
                 <!--condition Tab Content-->
-                <div class="tab-pane fade" id="condition" role="tabpanel" aria-labelledby="condition-tab">
+                <div class="tab-pane fade" id="other-details" role="tabpanel" aria-labelledby="other-details-tab">
                     
                     <ul class="list-items list-unstyled px-3 mb-0 row">
                         <li class="py-2 list_item d-flex justify-content-between col-sm-6">
@@ -406,6 +413,62 @@
                             <span class="right-txt second-color font-weight-600">n.a</span>
                         </li>
                     </ul>
+                    <!--Timeline-->
+                    <h3 class="title h5 px-2 py-2 mt-3">Timeline</h3>
+                    <div class="timeline px-md-4 py-4">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <!--Timeline #1-->
+                                <div class="row mb-3 no-gutters">
+                                    <div class="col-4 col-md-2 col-lg-4 col-xl-3 mr-lg-2 gray-color">
+                                        1988-07-20
+                                    </div>
+                                    <div class="col- mr-md-2 inner-box position-relative">
+                                        <div class="square"></div>
+                                    </div>
+                                    <div class="col-6 mr-md-2 font-weight-600 main-color">
+                                        Was built in torino
+                                    </div>
+                                </div>
+                                <!--Timeline #2-->
+                                <div class="row mb-3 no-gutters">
+                                    <div class="col-4 col-md-2 col-lg-4 col-xl-3 mr-lg-2 gray-color">
+                                        1995-06-21
+                                    </div>
+                                    <div class="col- mr-md-2 inner-box position-relative">
+                                        <div class="square"></div>
+                                    </div>
+                                    <div class="col-6 mr-md-2 font-weight-600 main-color">
+                                        Was shipped to the United States
+                                    </div>
+                                </div>
+                                <!--Timeline #3-->
+                                <div class="row mb-3 no-gutters">
+                                    <div class="col-4 col-md-2 col-lg-4 col-xl-3 mr-lg-2 gray-color">
+                                        2006-06-17
+                                    </div>
+                                    <div class="col- mr-md-2 inner-box position-relative">
+                                        <div class="square"></div>
+                                    </div>
+                                    <div class="col-6 mr-md-2 font-weight-600 main-color">
+                                        Shipped to Italy
+                                    </div>
+                                </div>
+                                <!--Timeline #4-->
+                                <div class="row mb-3 no-gutters">
+                                    <div class="col-4 col-md-2 col-lg-4 col-xl-3 mr-lg-2 gray-color">
+                                        2007-06-20
+                                    </div>
+                                    <div class="col- mr-md-2 inner-box position-relative">
+                                        <div class="square"></div>
+                                    </div>
+                                    <div class="col-6 mr-md-2 font-weight-600 main-color">
+                                        Used during rolling James Bond Film
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

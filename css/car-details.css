@@ -1,15 +1,4 @@
-@media(min-width: 1200px) {
-    .container {
-        margin: 0 auto;
-        max-width: 95%;
-    }
-}
-@media(min-width: 576px) and (max-width: 1199px) {
-    .container {
-        margin: 0 auto;
-        max-width: 95%;
-    }
-}
+
 .font-weight-600
 {
     font-weight: 600;
@@ -21,6 +10,10 @@
 .second-color
 {
     color: #007bff;
+}
+.gray-color
+{
+    color: #8c8d8e;
 }
 .btn-primary,
 .btn-primary:hover,
@@ -137,21 +130,13 @@
 {
     opacity: 1;
 }
-.section_1 .list-item
-{
-    
-}
 .section_1 .list-item:last-of-type
 {
     border-bottom: none;
 }
-.section_1 .principal-buttons .chev-right
+.section_1 .principal-buttons .btn
 {
-    width: 10px;
-    position: absolute;
-    top: 50%;
-    right: 1rem;
-    transform: translateY(-50%);
+    width: 200px;
 }
 .section_1 .secondary-buttons .btn
 {
@@ -177,22 +162,63 @@
     background-color: #e8e8e8;
     color: #4a4a49;
 }
+.section_2 .nav-tabs .icon
+{
+    width: 20px;
+}
 .section_2 .nav-tabs .nav-link
 {
-    background-color: #1e2f97;
+    background-color: #8c8d8e;
     color: #fff;
-    margin-right: .3rem;
 }
 .section_2 .nav-tabs .nav-link.active
 {
-    background-color: #e8e8e8;
-    color: #4a4a49;
+    background-color: #1aa7ec;
+    color: #fff;
+}
+.section_2 .timeline .inner-box::after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3px;
+    height: 200%;
+    z-index: 1;
+    background-color: #d4d4d4;
+    transform: translate(-50%, -50%);
+}
+.section_2 .timeline .square
+{
+    width: 20px;
+    height: 20px;
+    border-radius: .4rem;
+    background-color: #007bff;
+    position: relative;
+    border: 3px solid #fff;
+    z-index: 2;
+    box-sizing: content-box;
+}
+.section_2 .timeline .square::after
+{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
 }
 @media (max-width: 767px) {
-    .section_2 .nav-tabs .nav-link
+    .section_2 .nav-tabs .nav-link .txt
     {
-        font-size: .76rem;
-        margin-right: 0;
+        display: none;
+    }
+    .section_2 .nav-tabs .nav-link.active .txt
+    {
+        display: block;
     }
 }
 /*End section_2*/
