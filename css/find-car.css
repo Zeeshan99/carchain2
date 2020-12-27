@@ -1,0 +1,174 @@
+@media(min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+
+.font-weight-600
+{
+    font-weight: 600;
+}
+.main-color
+{
+    color: #1d2f97;
+}
+.second-color
+{
+    color: #007bff;
+}
+.gray-color
+{
+    color: #8c8d8e;
+}
+.font-weight-500
+{
+    font-weight: 500;
+}
+button,
+button:hover,
+button:active,
+input:hover,
+input:focus,
+input:active,
+select:hover,
+select:focus,
+select:active
+{
+    border-color: transparent;
+    box-shadow: none !important;
+    outline: none;
+}
+.pointer
+{
+    cursor: pointer;
+}
+
+
+.light-color
+{
+    color: #42aded;
+}
+.dark-color
+{
+    color: #1d2f97;
+}
+
+.find-car 
+{
+    background-color: #efefef;
+}
+.find-car .top-content .pagination .arrow-btn .arrow
+{
+    display: block;
+    width: 10px;
+    color: #a9a9a9;
+}
+.find-car .top-content .pagination .arrow-btn.active .arrow
+{
+    color: #1d2f97;
+}
+.find-car .top-content .pagination .text
+{
+    color: #989898;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.find-car .top-content .input-btn
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #4adede;
+    color: #262c6a;
+    z-index: 99;
+}
+.find-car .top-content .select-container .arrow-down
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 35px;
+    transform: translateY(-50%);
+    background-color: #4adede;
+    height: 100%;
+    pointer-events: none;
+}
+.find-car .top-content .select-container .arrow-down .icon
+{
+    width: 50%;
+    color: #1d2f97;
+}
+.find-car .main-content .card-title:hover
+{
+    color: #1d2f97;
+}
+.find-car .main-content .fav-icon
+{
+    width: 25px;
+}
+.find-car .main-content .flag
+{
+    width: 22px;
+}
+.font-lg
+{
+    font-size: 1.2rem;
+}
+.find-car .owl-carousel .owl-nav
+{
+    top: 50%;
+    left: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem;
+}
+.find-car .owl-carousel .owl-nav button.owl-next,
+.find-car .owl-carousel .owl-nav button.owl-prev,
+.find-car .owl-carousel button.owl-dot
+{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.find-car .owl-carousel .owl-nav button.owl-next span,
+.find-car .owl-carousel .owl-nav button.owl-prev span,
+.find-car .owl-carousel .owl-nav button.owl-next:hover,
+.find-car .owl-carousel .owl-nav button.owl-prev:hover,
+.find-car .owl-carousel .owl-nav button.owl-next:focus,
+.find-car .owl-carousel .owl-nav button.owl-prev:focus
+{
+    outline: none;
+    border: none;
+}
+.find-car .main-content .imgs-num
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 9;
+}
+.find-car .main-content .imgs-num .camera-icon
+{
+    width: 20px;
+}
+@media(max-width: 767px) {
+    .h5
+    {
+        font-size: 1.2rem;
+    }
+    .font-lg
+    {
+        font-size: 1.1rem;
+    }
+}

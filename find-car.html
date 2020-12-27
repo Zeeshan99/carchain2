@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/libs/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/libs/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/find-car.css">
+    <title>Car Details</title>
+</head>
+
+<body>
+    
+    <section class="find-car py-5">
+        <!--Top Content (Pagination & Search & Sort by )-->
+        <div class="top-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 ml-auto">
+                        <div class="row">
+                            <!--Pagination-->
+                            <div class="col-md-4 col-lg-4 col-xl-3 mb-3 px-1">
+                                <div class="pagination d-flex align-items-center">
+                                    <a href="#" class="arrow-btn mr-2 py-2 px-2 d-flex justify-content-center bg-white img-thumbnail">
+                                        <svg class="arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                                    </a>
+                                    <a href="#" class="arrow-btn mr-2 py-2 px-2 d-flex justify-content-center bg-white img-thumbnail active">
+                                        <svg class="arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                                    </a>
+                                    <span class="text">Page 1 of 50280</span>
+                                </div>
+                            </div>
+                            <!--Search Box-->
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-6 mb-3 px-1">
+                                <form action="">
+                                    <div class="input-group position-relative">
+                                        <input class="form-control rounded-pill border-0" placeholder="Find here your next car">
+                                        <button class="btn input-btn rounded-pill font-weight-500">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--Sort By-->
+                            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-3 px-1">
+                                <div class="select-container position-relative pointer">
+                                    <div class="arrow-down d-flex rounded-circle">
+                                        <svg class="icon m-auto" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+                                    </div>
+                                    <select class="custom-select rounded-pill border-0">
+                                        <option disabled selected>Sort by</option>
+                                        <option>Slow</option>
+                                        <option>Medium</option>
+                                        <option>Fast</option>
+                                        <option>Faster</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Main Content-->
+        <div class="main-content mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 mb-4">Filter</div>
+                    <!--Right Content-->
+                    <div class="col-lg-9 mb-4">
+                        <div class="row">
+                            <!--Card #1-->
+                            <div class="col-sm-6 col-lg-4 px-2 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-img position-relative">
+                                        <div class="owl-carousel position-relative">
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                        </div>
+                                        <div class="imgs-num rounded-pill bg-white light-color d-inline-flex align-items-center px-2">
+                                            <img class="camera-icon mr-1" src="./imgs/find-car/camera-to-take-photos.png" alt="camera icon">
+                                            50
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a href="#" class="card-title mb-0 h5 font-weight-bold dark-color">Lamborghini Gallardo 2</a>
+                                            <img class="fav-icon pointer" src="./imgs/find-car/favorite.png" alt="favorite">
+                                        </div>
+                                        <div class="font-weight-bold h5 mt-2 light-color">
+                                            2020 - $ 7,159
+                                        </div>
+                                        <ul class="list-unstyled row mb-1 font-lg">
+                                            <li class="col-6 dark-color">12,500 Km</li>
+                                            <li class="col-6 dark-color">Diesel</li>
+                                            <li class="col-6 dark-color">69 hp</li>
+                                            <li class="col-6 dark-color">Manual</li>
+                                        </ul>
+                                        <div class="d-flex align-items-center dark-color font-lg">
+                                            Trieste (TS)
+                                            <img class="flag ml-1" src="./imgs/find-car/italy (3).png" alt="flag">
+                                        </div>
+                                        <span class="font-weight-600 light-color font-lg">Private</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card #2-->
+                            <div class="col-sm-6 col-lg-4 px-2 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-img position-relative">
+                                        <div class="owl-carousel position-relative">
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                        </div>
+                                        <div class="imgs-num rounded-pill bg-white light-color d-inline-flex align-items-center px-2">
+                                            <img class="camera-icon mr-1" src="./imgs/find-car/camera-to-take-photos.png" alt="camera icon">
+                                            50
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a href="#" class="card-title mb-0 h5 font-weight-bold dark-color">Lamborghini Gallardo 2</a>
+                                            <img class="fav-icon pointer" src="./imgs/find-car/favorite.png" alt="favorite">
+                                        </div>
+                                        <div class="font-weight-bold h5 mt-2 light-color">
+                                            2020 - $ 7,159
+                                        </div>
+                                        <ul class="list-unstyled row mb-1 font-lg">
+                                            <li class="col-6 dark-color">12,500 Km</li>
+                                            <li class="col-6 dark-color">Diesel</li>
+                                            <li class="col-6 dark-color">69 hp</li>
+                                            <li class="col-6 dark-color">Manual</li>
+                                        </ul>
+                                        <div class="d-flex align-items-center dark-color font-lg">
+                                            Trieste (TS)
+                                            <img class="flag ml-1" src="./imgs/find-car/italy (3).png" alt="flag">
+                                        </div>
+                                        <span class="font-weight-600 light-color font-lg">Private</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card #3-->
+                            <div class="col-sm-6 col-lg-4 px-2 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-img position-relative">
+                                        <div class="owl-carousel position-relative">
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                        </div>
+                                        <div class="imgs-num rounded-pill bg-white light-color d-inline-flex align-items-center px-2">
+                                            <img class="camera-icon mr-1" src="./imgs/find-car/camera-to-take-photos.png" alt="camera icon">
+                                            50
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a href="#" class="card-title mb-0 h5 font-weight-bold dark-color">Lamborghini Gallardo 2</a>
+                                            <img class="fav-icon pointer" src="./imgs/find-car/favorite.png" alt="favorite">
+                                        </div>
+                                        <div class="font-weight-bold h5 mt-2 light-color">
+                                            2020 - $ 7,159
+                                        </div>
+                                        <ul class="list-unstyled row mb-1 font-lg">
+                                            <li class="col-6 dark-color">12,500 Km</li>
+                                            <li class="col-6 dark-color">Diesel</li>
+                                            <li class="col-6 dark-color">69 hp</li>
+                                            <li class="col-6 dark-color">Manual</li>
+                                        </ul>
+                                        <div class="d-flex align-items-center dark-color font-lg">
+                                            Trieste (TS)
+                                            <img class="flag ml-1" src="./imgs/find-car/italy (3).png" alt="flag">
+                                        </div>
+                                        <span class="font-weight-600 light-color font-lg">Private</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Card #4-->
+                            <div class="col-sm-6 col-lg-4 px-2 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-img position-relative">
+                                        <div class="owl-carousel position-relative">
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                            <div> <img src="./imgs/find-car/car.jpg" alt="image"> </div>
+                                        </div>
+                                        <div class="imgs-num rounded-pill bg-white light-color d-inline-flex align-items-center px-2">
+                                            <img class="camera-icon mr-1" src="./imgs/find-car/camera-to-take-photos.png" alt="camera icon">
+                                            50
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a href="#" class="card-title mb-0 h5 font-weight-bold dark-color">Lamborghini Gallardo 2</a>
+                                            <img class="fav-icon pointer" src="./imgs/find-car/favorite.png" alt="favorite">
+                                        </div>
+                                        <div class="font-weight-bold h5 mt-2 light-color">
+                                            2020 - $ 7,159
+                                        </div>
+                                        <ul class="list-unstyled row mb-1 font-lg">
+                                            <li class="col-6 dark-color">12,500 Km</li>
+                                            <li class="col-6 dark-color">Diesel</li>
+                                            <li class="col-6 dark-color">69 hp</li>
+                                            <li class="col-6 dark-color">Manual</li>
+                                        </ul>
+                                        <div class="d-flex align-items-center dark-color font-lg">
+                                            Trieste (TS)
+                                            <img class="flag ml-1" src="./imgs/find-car/italy (3).png" alt="flag">
+                                        </div>
+                                        <span class="font-weight-600 light-color font-lg">Private</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/libs/jquery-3.3.1.min.js"></script>
+    <script src="js/libs/popper.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/owl.carousel.min.js"></script>
+    <script src="js/find-car.js"></script>
+</body>
+
+</html>

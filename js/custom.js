@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     //Trigger Owl Carousel
     var owl = $(".owl-carousel").owlCarousel({
         nav: true,
@@ -39,11 +38,6 @@ $(document).ready(function(){
     $('.image-full-width-container .image').on("click", function(e) {
         e.stopPropagation();
     });
-
-
-
-    /** */
-
 
 
 
