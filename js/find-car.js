@@ -1,5 +1,6 @@
 $(function() {
     'use strict';
+    //For Car Card
     var owl = $(".find-car .owl-carousel").owlCarousel({
         nav: true,
         dots: false,
@@ -14,10 +15,13 @@ $(function() {
         }
     });
 
+    /**
+     * LoadSliderRange  fucntion
+     * To get `data-min` and `data-max` from the input and put them into this code
+     */
     loadSliderRange("#year-range");
     loadSliderRange("#km-range");
-    loadSliderRange("#price-range");
-    
+    loadSliderRange("#price-range");    
     function loadSliderRange(sliderID) {
         console.log(sliderID);
         let parent = $(sliderID).parents(".range-box");
@@ -39,5 +43,35 @@ $(function() {
             }
         });
     }
+
+    //For All Selectbox
+    $(".find-car .filter-section select").on('change', function() {
+        let value = $(this).val();
+        if (value == 0) {
+            $(this).removeClass("selected");
+        } else {
+            $(this).addClass("selected");
+        }
+    });
+    //For Make Selectbox
+    $(".find-car .filter-section .makeSelection").on('change', function() {
+        let value = $(this).val();
+        if (value == 0) {
+            $(".find-car .filter-section .linkedToMake,.find-car .filter-section .linkedToModel").removeClass("active");
+            $(".find-car .filter-section .linkedToMake select,.find-car .filter-section .linkedToModel select").val("0").removeClass('selected');
+        } else {
+            $(".find-car .filter-section .linkedToMake").addClass("active");
+        }
+    });
+    //For Model Selectbox
+    $(".find-car .filter-section .modelSelection").on('change', function() {
+        let value = $(this).val();
+        if (value == 0) {
+            $(".find-car .filter-section .linkedToModel").removeClass("active");
+            $(".find-car .filter-section .linkedToModel select").val("0").removeClass('selected');
+        } else {
+            $(".find-car .filter-section .linkedToModel").addClass("active");
+        }
+    });
 
 });

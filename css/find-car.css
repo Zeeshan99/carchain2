@@ -70,6 +70,11 @@ select:active
     width: 10px;
     color: #a9a9a9;
 }
+.find-car .top-content .arrow-btn
+{
+    width: 35px;
+    height: 35px;
+}
 .find-car .top-content .pagination .arrow-btn.active .arrow
 {
     color: #1d2f97;
@@ -189,14 +194,18 @@ select::-ms-expand {
     border-width: 2px;
     cursor: pointer;
 }
-.find-car .custom-select:hover
-{
-    border: 2px solid #ddd;
-}
+.find-car .custom-select:hover,
 .find-car .custom-select:focus,
 .find-car .custom-select:active
 {
-    
+    border: 2px solid #ddd;
+}
+/*
+.find-car .custom-select:focus,
+.find-car .custom-select:active,
+*/
+.find-car .filter-section select.selected
+{
     border: 2px solid #1d2f97;
 }
 .find-car .range-box input
@@ -239,6 +248,17 @@ select::-ms-expand {
 {
     color: #333;
 }
+.find-car .filter-section .linkedToMake,
+.find-car .filter-section .linkedToModel
+{
+    display: none;
+}
+.find-car .filter-section .linkedToMake.active,
+.find-car .filter-section .linkedToModel.active
+{
+    display: block;
+}
+
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
 {
