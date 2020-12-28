@@ -172,3 +172,112 @@ select:active
         font-size: 1.1rem;
     }
 }
+
+
+select::-ms-expand {
+    display: none;
+}
+
+.find-car .filter-box
+{
+    border: .3rem solid #f7f7f5;
+}
+.find-car .custom-select
+{
+    background-image: url("../imgs/find-car/chevron-down-solid.svg");
+    background-size: .8rem;
+    border-width: 2px;
+    cursor: pointer;
+}
+.find-car .custom-select:hover
+{
+    border: 2px solid #ddd;
+}
+.find-car .custom-select:focus,
+.find-car .custom-select:active
+{
+    
+    border: 2px solid #1d2f97;
+}
+.find-car .range-box input
+{
+    width: 50%;
+    border: 0;
+    color: #333;
+    font-weight: 500;
+}
+.find-car .range-box input:nth-of-type(2)
+{
+    text-align: right;
+}
+.find-car .top-options .icon
+{
+    width: 15px;
+}
+.find-car .top-options button,
+.find-car .top-options button:focus
+{
+    outline: none !important;
+}
+
+.find-car .filter-title
+{
+    font-size: .9rem;
+    color: #aaa;
+    font-weight: 500;
+}
+.find-car .filter-section .filter-chevron
+{
+    width: 15px;
+    transition: .4s;
+}
+.find-car .filter-section .collapsed .filter-chevron
+{
+    transform: rotate(-90deg);
+}
+.find-car .filter-section .result-found
+{
+    color: #333;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active
+{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ui-slider
+{
+    border: 0;
+}
+.ui-slider .ui-widget-header
+{
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #42aded;
+}
+.ui-widget.ui-widget-content
+{
+    border: none;
+    background-color: #ddd;
+    height: .3rem;
+    cursor: pointer;
+}
+.ui-slider .ui-slider-handle:focus
+{
+    outline: none;
+}
+.ui-slider .ui-slider-handle.ui-state-active
+{
+    background: #42aded;
+    border: #42aded;
+}
+.ui-slider-horizontal .ui-slider-handle
+{
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 0px 7px rgb(66,174,237, 0.5);
+    background: #42aded;
+    border: #42aded;
+}
