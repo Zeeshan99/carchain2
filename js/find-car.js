@@ -40,9 +40,4 @@ $(function() {
         });
     }
 
-
-    $('#filterAccordion').collapse({
-        toggle: false
-    })
-
 });
