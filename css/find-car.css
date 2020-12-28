@@ -204,7 +204,8 @@ select::-ms-expand {
 .find-car .custom-select:focus,
 .find-car .custom-select:active,
 */
-.find-car .filter-section select.selected
+.find-car .filter-section select.selected,
+.find-car .filter-section input.selected
 {
     border: 2px solid #1d2f97;
 }
@@ -249,12 +250,14 @@ select::-ms-expand {
     color: #333;
 }
 .find-car .filter-section .linkedToMake,
-.find-car .filter-section .linkedToModel
+.find-car .filter-section .linkedToModel,
+.find-car .filter-section .linkedToLocation
 {
     display: none;
 }
 .find-car .filter-section .linkedToMake.active,
-.find-car .filter-section .linkedToModel.active
+.find-car .filter-section .linkedToModel.active,
+.find-car .filter-section .linkedToLocation.active
 {
     display: block;
 }

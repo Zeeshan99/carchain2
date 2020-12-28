@@ -21,9 +21,9 @@ $(function() {
      */
     loadSliderRange("#year-range");
     loadSliderRange("#km-range");
-    loadSliderRange("#price-range");    
+    loadSliderRange("#radius-range");
+    loadSliderRange("#price-range");
     function loadSliderRange(sliderID) {
-        console.log(sliderID);
         let parent = $(sliderID).parents(".range-box");
         let minEle = parent.find(".min-txt");
         let maxEle = parent.find(".max-txt");
@@ -44,7 +44,7 @@ $(function() {
         });
     }
 
-    //For All Selectbox
+    //For All Selectbox & inputs
     $(".find-car .filter-section select").on('change', function() {
         let value = $(this).val();
         if (value == 0) {
@@ -53,6 +53,27 @@ $(function() {
             $(this).addClass("selected");
         }
     });
+    $(".find-car .filter-section input").on('input', function() {
+        let value = $(this).val();
+        if (value.trim() == '') {
+            $(this).removeClass("selected");
+        } else {
+            $(this).addClass("selected");
+        }
+    });
+
+
+    //For Location And Radius
+    $(".find-car .filter-section .location").on('input', function() {
+        let value = $(this).val();
+        if (value.trim() == '' ) {
+            $(".find-car .filter-section .linkedToLocation").removeClass("active");
+        } else {
+            $(".find-car .filter-section .linkedToLocation").addClass("active");
+        }
+    });
+    
+    
     //For Make Selectbox
     $(".find-car .filter-section .makeSelection").on('change', function() {
         let value = $(this).val();
@@ -73,5 +94,5 @@ $(function() {
             $(".find-car .filter-section .linkedToModel").addClass("active");
         }
     });
-
+    
 });
