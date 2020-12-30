@@ -220,6 +220,19 @@ select::-ms-expand {
 {
     text-align: right;
 }
+.find-car .radius .ui-slider-horizontal .ui-slider-handle:nth-of-type(2)
+{
+    display: none;
+}
+.find-car .radius .ui-widget.ui-widget-content
+{
+    background: #42aded;
+}
+.find-car .radius .ui-slider .ui-widget-header
+{
+    background: #ddd;
+    transform: translateY(-40%);
+}
 .find-car .top-options .icon
 {
     width: 15px;

@@ -1,0 +1,79 @@
+
+@media(min-width: 1200px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+.font-weight-500
+{
+    font-weight: 500;
+}
+.font-weight-600
+{
+    font-weight: 600;
+}
+.w-fit-content
+{
+    width: fit-content;
+}
+.main-color
+{
+    color: #031364;
+}
+
+.choose .countries .country
+{
+    background-color: #1E2F97;
+    width: 160px;
+    height: 40px;
+}
+.choose .countries .country:hover
+{
+    text-decoration: none;
+}
+.choose .countries .font-sm
+{
+    font-size: .8rem;
+}
+.choose .countries .flag
+{
+    padding: .2rem;
+}
+.choose .read-more,
+.choose .read-more:hover
+{
+    background-color: #4ADEDE;
+    text-decoration: none;
+    color: #031364;
+    font-size: 1.2rem;
+}
+.choose .box-item
+{
+    border-radius: 3rem;
+    border: 3px solid #031364;
+}
+.choose .box-image
+{
+    height: 140px;
+}
+.choose .text
+{
+    font-size: 2rem;
+}
+@media(max-width: 567px) {
+    .choose .box-image
+    {
+        height: 120px;
+    }
+    .choose .text
+    {
+        font-size: 1.8rem;
+    }
+}
