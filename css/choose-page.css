@@ -67,6 +67,12 @@
 {
     font-size: 2rem;
 }
+@media(max-width: 767px) {
+    .choose .countries .country
+    {
+        width: 215px;
+    }
+}
 @media(max-width: 567px) {
     .choose .box-image
     {
